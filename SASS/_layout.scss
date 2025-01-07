@@ -1,0 +1,279 @@
+.main-container{
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  
+  
+  
+  
+  // Header
+  header {
+    .logo-site{
+      display: flex;
+      justify-content: center;
+      text-align: center;   
+    }
+    img{
+      padding: 20px 0px 20px 0px;
+      width: 200Px;
+    }
+  }
+  
+  // Location Section
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 15px;
+    padding-left: 70px;
+    background: $background-light;
+  
+    input {
+      border: none;
+      background-color: transparent;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+  
+  
+  // Frame Section
+  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: $color-gray;
+  
+    h1{
+      text-align: center;
+      font-size: 24px;
+      width: 80%;
+    }
+  
+    p {
+      text-align: center;
+    }
+  }
+  
+  // Button
+  button {
+    background: linear-gradient(193.33deg, $color-primary -11.44%, $color-secondary 123.93%);
+    border-radius: 25px;
+    color: $color-light;
+    text-align: center;
+    height: 50px;
+    width: 218px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+  
+    &:hover {
+      opacity: 0.88;
+      box-shadow: $box-shadow-hover;
+      cursor: pointer;
+    }
+  }
+  
+  //fonctionnemment
+  
+  
+  
+  .fonctionnement {
+   
+   margin-top: 20px;
+    background: #FFFFFF;
+   padding-bottom: 40px;
+  }
+  
+  
+  .fonction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 15px;
+  }
+  
+  .fonctionnement-fonction {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    border: solid;
+    border-radius: 20px;
+    height: 72px;
+    background: $color-bg;
+    border: none;
+    margin: 0 20px;
+    background: $color-bg;
+    box-shadow: $shadow-primary;
+   
+  }
+  
+  .text-fonctionnement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+  }
+  
+  .numbre-fonctionnement {
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background: $color-primary;
+    position: relative;
+    right: 10px;
+    color: white;
+  }
+  
+  .fas {
+    &:hover {
+      cursor: pointer;
+      color: $color-primary;
+    }
+  }
+  
+  //restaurant
+  
+  
+  .restaurant {
+    background: $color-bg;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  h2 {
+    padding: 9px 0 20px 9px;
+  }
+  .restaurant-container{
+    width: 95%;
+    margin: auto;
+  }
+  
+  .link{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    position: relative;
+  }
+  
+   
+    
+    h3 {
+      font-size: 18px;
+      padding: 10px 0 0 9px;
+   
+    }
+  
+  .restaurant-card {
+    display: flex;
+    flex-direction: column;
+    background: $color-bg;
+    height: 251px;
+  
+    border-radius: 15px;
+    box-shadow: $shadow-primary;
+  
+  
+    
+    img {
+      border-radius: 20px 20px 0 0;
+      object-fit: cover;
+      width: 100%;
+      height: 175px;
+      
+    }
+  
+    .new {
+      text-align: center;
+      width: 80px;
+      height: 30px;
+      border-radius: 2px;
+      background-color: $color-accent;
+      color: $color-accent-dark;
+      font-weight: 500;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      
+    }
+  
+    p {
+      padding-left: 10px;
+    }
+  }
+  
+  .logo-love {
+    i {
+      font-size: 30px;
+      -webkit-text-stroke: white 1px;
+      position: absolute;
+      right: 20px;
+      bottom: 60px;
+     
+    }
+  }
+  
+  .fa {
+    font-size: 30px;
+    -webkit-text-stroke: white 1px;
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    opacity: 0;
+    display: inline-block;
+    background: linear-gradient(193.33deg, $color-primary -11.44%, $color-secondary 123.93%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: opacity 1s;
+   
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+  
+  //footer
+  
+  
+  footer {
+    background: $color-bg-footer;
+    width: 100%;
+  
+  .footer__title {
+      font-family: $font-primary;
+      font-weight: bold;
+      font-style: italic;
+      color: $color-text;
+      margin: auto;
+  
+      width: 90%;
+      font-size: 18px;
+    }
+  
+    ul {
+      width: 90%;
+      color: $color-text;
+      margin: auto;
+      font-size: 16px;
+  
+      a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+  
+  
+   

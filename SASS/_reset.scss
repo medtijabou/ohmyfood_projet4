@@ -1,0 +1,62 @@
+// Reset CSS léger
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  // Supprimer les marges par défaut pour les éléments spécifiques
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, figure, blockquote, dl, dd {
+    margin: 0;
+  }
+  
+  // Supprimer les styles des listes
+  ul, ol {
+    list-style: none;
+  }
+  
+  // Supprimer les décorations des liens
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  // Gérer les médias (images, vidéos, etc.)
+  img, picture, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  // Configurer une typographie de base
+  html {
+    font-family: sans-serif;
+    font-size: 100%;  // Base de 16px
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    color: $color-dark;
+  }
+  
+  // Réinitialiser les styles des tableaux
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  // Réinitialiser les styles des éléments de formulaire
+  button, input, textarea, fonctionnement {
+    font: inherit;
+  }
+  
+  // Supprimer les bordures et les styles des boutons et des champs sur mobiles
+  button, input {
+    border: none;
+    outline: none;
+  }
+  
+  
