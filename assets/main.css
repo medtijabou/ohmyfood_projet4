@@ -271,7 +271,7 @@ h3 {
     bottom: 60px;
 }
 
-.fa {
+.fa{
     font-size: 30px;
     -webkit-text-stroke: white 1px;
     position: absolute;
@@ -358,7 +358,7 @@ footer ul a {
     position: absolute;
     top: 22px;
     right: 20px;
-    transition: opacity 1s;
+    height: 30px;
 }
 
 
