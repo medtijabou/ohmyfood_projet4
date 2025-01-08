@@ -356,9 +356,14 @@ footer ul a {
     font-size: 30px;
     -webkit-text-stroke: white 1px;
     position: absolute;
-    top: 22px;
+    top: -36px;
     right: 20px;
     height: 30px;
+}
+.logo-corazon{
+    
+ position: relative;
+        
 }
 
 
@@ -611,7 +616,7 @@ footer ul a {
     .logo-corazon i {
         position: absolute;
         top: 22px;
-        right: 200px;
+        right: -45px;
     }
 
 
