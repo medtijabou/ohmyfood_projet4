@@ -291,38 +291,9 @@ h3 {
     cursor: pointer;
 }
 
-/* footer */
 
-footer {
-    background: #353535;
-    width: 100%;
-}
 
-footer .footer__title {
-    font-family: "Shrikhand", cursive;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    margin: auto;
-    width: 90%;
-    padding: 10px 0px 0px;
-    font-size: 18px;
-}
-
-footer ul {
-    width: 90%;
-    color: white;
-    margin: auto;
-    font-size: 16px;
-}
-
-footer ul a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-/* **** */
+/* **carte de menu** */
 .food-card {
     position: relative;
     z-index: 0;
@@ -335,7 +306,7 @@ footer ul a {
     object-fit: cover;
     position: relative;
 }
-
+/* menu */
 .menu-card {
     background: #f6f6f6;
     border-radius: 40px 40px 0 0;
@@ -414,7 +385,7 @@ footer ul a {
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-
+/* animation sur la carte de menu */
 
 /* Keyframes */
 @keyframes menu-appear {
@@ -505,6 +476,36 @@ footer ul a {
 
 .btn__commande .btn:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+/* footer */
+
+footer {
+    background: #353535;
+    width: 100%;
+}
+
+footer .footer__title {
+    font-family: "Shrikhand", cursive;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin: auto;
+    width: 90%;
+    padding: 10px 0px 0px;
+    font-size: 18px;
+}
+
+footer ul {
+    width: 90%;
+    color: white;
+    margin: auto;
+    font-size: 16px;
+}
+
+footer ul a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 
