@@ -1,8 +1,11 @@
 @import './variables';
-@import './layout';
+@import './base';
+@import './mixins';
+@import './components/header';
+@import './components/hero';
+@import './components/menu';
+@import './components/restuarant';
+@import './components/footer';
+@import './components/buttons';
+@import './animations';
 @import './responsive';
-@import'./reset';
-
-
-
-

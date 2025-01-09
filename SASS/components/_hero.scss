@@ -1,0 +1,12 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-color_2;
+  
+    h1 {
+      text-align: center;
+      font-size: 24px;
+    }
+  }
+  

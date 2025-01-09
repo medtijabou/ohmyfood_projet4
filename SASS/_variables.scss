@@ -1,40 +1,19 @@
-// Variables
-$font-primary: 'Shrikhand', cursive;
-$background-light: #EAEAEA;
-$color-bg: #f6f6f6;
-$color-primary: #9356DC;
-$color-secondary: #FF79DA;
-$color-light: #ffffff;
-$color-dark: #000;
-$color-accent: #99E2D0;
-$color-accent-dark: #278870;
-$color-gray: whitesmoke;
-$color-bg-footer: #353535;
-$color-text: white;
-$box-shadow-hover: 0 4px 10px 0 #afafaf;
-$max-width-container: 1440px; 
-$padding-horizontal: 10%;  
-$padding-vertical: 30px;  
-$font-size-title: 24px; 
-$font-size-header:35px; 
-$margin-bottom-title: 10px;  
-$margin-left-title: 50px;
-$column-gap: 130px;  
-$container-width: 73%;  
-$restaurant__title-padding-left: 190px;  
-$restaurant-card-width: 450px;  
-$logo-love-font-size: 30px;  
-$position-right: 20px;  
-$position-bottom: 60px;
-$footer-height: 100px;  
-$footer-font-size: 24px;  
-$footer-padding-right: 100px;  
-$footer-padding-left: 50px;  
-$footer-gap: 30px; 
+$color_1: inherit;
+$color_2: #000;
+$color_3: #f0f0f0;
+$color_4: white;
+$color_5: #9356DC;
+$color_6: #278870;
+$color_7: #fff;
+$color_8: #99E2D0;
 
+$font-family_1: sans-serif;
+$font-family_2: "Shrikhand", cursive;
+$font-family_3: "'Roboto', sans-serif";
+$font-family_4: Roboto;
+$font-family_5: "Shrikhand", cursive;
 
-// Définir les variables
-$color-light: #f0f0f0;  // Couleur de fond claire
-$color-dark: #000;  // Couleur de texte sombre
-//boxshadow
-$shadow-primary: 0px 4px 15px 0px #00000026;
+$background-color_1: transparent;
+$background-color_2: whitesmoke;
+$background-color_3: #99E2D0;
+$background-color_4: #F5EDFF;

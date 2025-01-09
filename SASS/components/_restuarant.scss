@@ -1,0 +1,13 @@
+.restaurant {
+    background: $color_3;
+    padding: 30px;
+  
+    .restaurant-card {
+      display: flex;
+      flex-direction: column;
+      background: $background-color_4;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+  }
+  

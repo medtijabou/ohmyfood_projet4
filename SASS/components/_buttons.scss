@@ -1,0 +1,16 @@
+button {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    border-radius: 25px;
+    color: $color_3;
+    height: 50px;
+    width: 218px;
+    font-weight: bold;
+    font-size: 16px;
+  
+    &:hover {
+      opacity: 0.88;
+      box-shadow: 0 4px 10px 0 #afafaf;
+      cursor: pointer;
+    }
+  }
+  
